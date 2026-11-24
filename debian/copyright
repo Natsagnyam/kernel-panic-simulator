@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kernel-panic-detector
+Source: https://launchpad.net/~natska/+archive/ubuntu/kernel-panic-detector
+
+Files: *
+Copyright: 2026 Natska Natsagnaym NAMKHAI
+License: MIT or GPL-2.0-only

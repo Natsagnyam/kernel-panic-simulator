@@ -1,0 +1,14 @@
+egui-ui/target/
+kernel/.tmp_versions/
+kernel/*.o
+kernel/*.ko
+kernel/*.mod
+kernel/*.mod.c
+kernel/modules.order
+kernel/Module.symvers
+*.deb
+*.ddeb
+*.changes
+*.buildinfo
+*.dsc
+*.tar.*

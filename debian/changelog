@@ -1,0 +1,7 @@
+kernel-panic-detector (0.1.0-1~noble1) noble; urgency=medium
+
+  * Initial PPA release for Ubuntu noble.
+  * Includes panic_lab kernel module (memleak, race, divzero, badptr)
+    with sysfs /sys/kernel/panic_lab/trigger and metrics interfaces.
+
+ -- natska <nanyam22@gmail.com>  Tue, 24 Nov 2026 14:15:00 +0800
