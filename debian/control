@@ -6,7 +6,7 @@ Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), dh-dkms, dkms
 Rules-Requires-Root: no
 
-Package: kernel-panic-detector-dh-dkms, dkms
+Package: kernel-panic-detector-dkms
 Architecture: all
 Depends: dh-dkms, dkms, build-essential, ${misc:Depends}
 Description: Linux kernel fault-injection lab module (DKMS)

@@ -2,6 +2,12 @@ kernel-panic-detector (0.1.0-1~noble2) noble; urgency=medium
 
   * Fix Build-Depends to include dh-dkms for dh --with dkms
 
+ -- natska <nanyam22@gmail.com>  Wed, 25 Nov 2026 10:29:40 +0800
+
+kernel-panic-detector (0.1.0-1~noble2) noble; urgency=medium
+
+  * Fix Build-Depends to include dh-dkms for dh --with dkms
+
  -- natska <natska@natska-XPS-15-9530>  Wed, 25 Nov 2026 10:28:40 +0800
 
 kernel-panic-detector (0.1.0-1~noble1) noble; urgency=medium
