@@ -1,4 +1,1 @@
-kernel/src/panic_lab_main.c usr/src/kernel-panic-detector-0.1.0/src/
-kernel/src/faults.c usr/src/kernel-panic-detector-0.1.0/src/
-kernel/src/faults.h usr/src/kernel-panic-detector-0.1.0/src/
-kernel/Makefile usr/src/kernel-panic-detector-0.1.0/
+AUTOINSTALL="yes"
