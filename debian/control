@@ -3,12 +3,12 @@ Section: kernel
 Priority: optional
 Maintainer: natska <nanyam22@gmail.com>
 Standards-Version: 4.6.2
-Build-Depends: debhelper-compat (= 13), dkms
+Build-Depends: debhelper-compat (= 13), dh-dkms, dkms
 Rules-Requires-Root: no
 
-Package: kernel-panic-detector-dkms
+Package: kernel-panic-detector-dh-dkms, dkms
 Architecture: all
-Depends: dkms, build-essential, ${misc:Depends}
+Depends: dh-dkms, dkms, build-essential, ${misc:Depends}
 Description: Linux kernel fault-injection lab module (DKMS)
  DKMS package providing the panic_lab kernel module with sysfs trigger
  and metrics interfaces for testing memory leaks, race conditions,
