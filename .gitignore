@@ -12,3 +12,4 @@ kernel/Module.symvers
 *.buildinfo
 *.dsc
 *.tar.*
+debian/files

@@ -1,3 +1,9 @@
+kernel-panic-detector (0.1.0~noble4) noble; urgency=medium
+
+  * Use native Debian version format without upstream revision for noble PPA build.
+
+ -- Natsagnyam Namkhai <nanyam22@gmail.com>  Thu, 26 Nov 2026 14:09:06 +0800
+
 kernel-panic-detector (0.1.0-1~noble3) noble; urgency=medium
 
   * Move file mappings to debian/install and set AUTOINSTALL in
