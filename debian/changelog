@@ -1,3 +1,10 @@
+kernel-panic-detector (0.1.0-1~noble3) noble; urgency=medium
+
+  * Move file mappings to debian/install and set AUTOINSTALL in
+    debian/dkms
+
+ -- Natsagnyam Namkhai <nanyam22@gmail.com>  Wed, 25 Nov 2026 17:58:42 +0800
+
 kernel-panic-detector (0.1.0-1~noble2) noble; urgency=medium
 
   * Fix Build-Depends to include dh-dkms for dh --with dkms

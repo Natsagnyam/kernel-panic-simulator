@@ -1,0 +1,27 @@
+.TH KERNEL-PANIC-DETECTOR 1 "November 2026" "0.1.0" "Kernel Fault Lab Manual"
+.SH NAME
+kernel-panic-detector \- DKMS fault-injection kernel module (panic_lab) and monitor
+.SH SYNOPSIS
+.B sudo modprobe panic_lab
+.br
+.B dkms status
+.SH DESCRIPTION
+.B kernel-panic-detector
+packages the \fBpanic_lab\fR Linux kernel module via DKMS to exercise and observe
+kernel fault conditions such as memory leaks, race conditions, divide-by-zero,
+and invalid memory dereferences alongside user-space monitoring.
+.SH USAGE
+Load and inspect the module with standard kernel utilities:
+.TP
+.B sudo modprobe panic_lab
+Insert the compiled module into the running kernel.
+.TP
+.B sudo dmesg -w
+Stream kernel ring-buffer messages and fault diagnostics.
+.TP
+.B sudo modprobe -r panic_lab
+Unload the module cleanly when finished.
+.SH SEE ALSO
+.BR dkms (8),
+.BR modprobe (8),
+.BR dmesg (1)
